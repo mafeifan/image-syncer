@@ -4,4 +4,4 @@ auth:
     password: $PASSWORD
 images:
    k8s.gcr.io/metrics-server/metrics-server: finleyma/metrics-server
-   registry.k8s.io/csi-secrets-store/driver: finleyma/registry.k8s.io/csi-secrets-store/driver
+   registry.k8s.io/csi-secrets-store/driver: finleyma/driver
