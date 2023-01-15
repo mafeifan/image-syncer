@@ -6,7 +6,7 @@ sync k8s.gcr.io docker images to dockerhub or aliyun registry use [aliyun image-
 
 1、fork this repo, then create your self secrets:
 ```
-Settings-->Secrets-->New Repository Secrets--> Add your DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD key values.
+Settings-->Secrets and variables --> Actions -->New Repository Secrets--> Add your DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD key values.
 ```
 ![githubaction01.png](https://i.loli.net/2021/08/21/TjN76FtngG5Dehf.png)
 
