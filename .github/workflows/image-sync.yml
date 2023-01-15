@@ -6,13 +6,13 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '0 14 * * 1'
+#  schedule:
+#    - cron: '0 14 * * 1'
 
 env:
   IMAGE_SYNCER_VERSION: v1.3.1
-  USERNAME: ${{ secrets.ALIYUN_USERNAME }}
-  PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
+  USERNAME: ${{ secrets.USERNAME }}
+  PASSWORD: ${{ secrets.PASSWORD }}
 
 jobs:
   image-sync:
