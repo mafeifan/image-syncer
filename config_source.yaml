@@ -3,9 +3,5 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-   k8s.gcr.io/metrics-server/metrics-server: finleyma/metrics-server
-   ## 不支持 finleyma/registry.k8s.io/csi-secrets-store/driver
-   registry.k8s.io/csi-secrets-store/driver: finleyma/driver
-   registry.k8s.io/csi-secrets-store/driver-crds: finleyma/driver-crds
-   registry.k8s.io/sig-storage/csi-node-driver-registrar: finleyma/csi-node-driver-registrar
-   registry.k8s.io/sig-storage/livenessprobe: finleyma/livenessprobe
+   ghcr.io/external-secrets/external-secrets: finleyma/external-secrets
+
